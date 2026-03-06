@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -102,6 +103,23 @@
 
     .nav-cta:hover {
       background: var(--cyan-dim) !important;
+    }
+
+    .nav-resume {
+      padding: 8px 20px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-mid) !important;
+      transition: all 0.2s !important;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-resume:hover {
+      color: var(--text) !important;
+      border-color: rgba(255,255,255,0.2) !important;
+      background: rgba(255,255,255,0.04) !important;
     }
 
     /* ── HERO ── */
@@ -568,6 +586,17 @@
       transform: translateY(-2px);
     }
 
+    .link-resume {
+      background: transparent;
+      color: var(--cyan);
+      border: 1px solid var(--border-hi);
+    }
+
+    .link-resume:hover {
+      background: var(--cyan-dim);
+      transform: translateY(-2px);
+    }
+
     /* ── FOOTER ── */
     footer {
       background: var(--bg-2);
@@ -630,6 +659,7 @@
       <li><a href="#about">about</a></li>
       <li><a href="#projects">projects</a></li>
       <li><a href="#skills">skills</a></li>
+      <li><a href="GPineda_Resume.pdf" download class="nav-resume">↓ resume</a></li>
       <li><a href="#contact" class="nav-cta">hire me</a></li>
     </ul>
   </nav>
@@ -830,6 +860,9 @@
         <a href="mailto:guspineda93@gmail.com" class="contact-link link-cyan">
           ✉ Say Hello
         </a>
+        <a href="GPineda_Resume.pdf" download class="contact-link link-resume">
+          ↓ Download Resume
+        </a>
         <a href="https://github.com/GitGudGus" target="_blank" class="contact-link link-outline">
           GitHub ↗
         </a>
@@ -845,8 +878,7 @@
     <div class="footer-right">Miami, FL</div>
   </footer>
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-    const cards = document.querySelectorAll('.project-card');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if
+  <script>// animations handled via CSS</script>
+
+</body>
+</html>
