@@ -224,6 +224,7 @@
     /* ── SECTIONS ── */
     section {
       padding: 100px 48px;
+      scroll-margin-top: 72px;
     }
 
     .section-label {
@@ -598,7 +599,7 @@
         <p>
           I didn't always write code. I came from the business industry, which means I think 
           about <strong>why</strong> software gets built just as much as <strong>how</strong>. 
-          I transitioned into computer science in 2022, earned my Bachelor's at Florida 
+          I transitioned into computer science in 2023, earned my Bachelor's at Florida 
           International University, and haven't looked back.
         </p>
         <p>
@@ -763,11 +764,10 @@
   </section>
 
   <footer>
-    Designed & built by Gus · 2025
+    Designed & built by Gustavo Pineda · 2026
   </footer>
 
   <script>
-    // Scroll-reveal for project cards
     const cards = document.querySelectorAll('.project-card');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
