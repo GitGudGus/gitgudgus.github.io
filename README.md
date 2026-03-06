@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gus — Developer & Builder</title>
+  <title>Gustavo Pineda — Developer & Builder</title>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -557,7 +557,7 @@
 
   <!-- NAV -->
   <nav>
-    <a href="#" class="nav-logo">Gus.</a>
+    <a href="#" class="nav-logo">Gustavo Pineda</a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -750,13 +750,13 @@
       Whether you have a project in mind or just want to explore what's possible — I'd love to hear from you.
     </p>
     <div class="contact-links">
-      <a href="mailto:your@email.com" class="contact-link link-sage">
+      <a href="mailto:guspineda93@gmail.com" class="contact-link link-sage">
         ✉️ Send me an email
       </a>
       <a href="https://github.com/GitGudGus" target="_blank" class="contact-link link-ghost">
         GitHub ↗
       </a>
-      <a href="https://linkedin.com/in/yourhandle" target="_blank" class="contact-link link-ghost">
+      <a href="https://linkedin.com/in/g-pineda93/" target="_blank" class="contact-link link-ghost">
         LinkedIn ↗
       </a>
     </div>
