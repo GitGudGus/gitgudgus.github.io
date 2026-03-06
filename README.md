@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -155,7 +154,7 @@
 
     .hero h1 {
       font-family: var(--display);
-      font-size: clamp(3.2rem, 7vw, 6rem);
+      font-size: clamp(2.2rem, 4.5vw, 3.8rem);
       font-weight: 800;
       line-height: 1.0;
       color: var(--text);
@@ -244,7 +243,7 @@
       padding: 100px 48px;
       position: relative;
       z-index: 1;
-      scroll-margin-top: 64px;
+      scroll-margin-top: 80px;
     }
 
     .section-tag {
@@ -377,14 +376,12 @@
       overflow: hidden;
       opacity: 0;
       transform: translateY(20px);
-    }
-
-    .project-card.visible {
       animation: fadeUp 0.55s ease forwards;
     }
 
-    .project-card:nth-child(2) { animation-delay: 0.08s; }
-    .project-card:nth-child(3) { animation-delay: 0.16s; }
+    .project-card:nth-child(1) { animation-delay: 0.1s; }
+    .project-card:nth-child(2) { animation-delay: 0.2s; }
+    .project-card:nth-child(3) { animation-delay: 0.3s; }
 
     .project-card::after {
       content: '';
@@ -666,17 +663,16 @@
         <h2 class="section-title">I build for the end user, not the résumé.</h2>
         <div class="divider"></div>
         <p>
-          I didn't start in tech. I came from the business industry, which means I think about 
-          <strong>why</strong> something gets built just as much as <strong>how</strong>. 
-          That perspective changes the way I write code.
+           I didn't always write code. I came from the business industry, which means I think 
+          about <strong>why</strong> software gets built just as much as <strong>how</strong>. 
+          I transitioned into computer science in 2023, earned my Bachelor's at Florida 
+          International University, and haven't looked back.
         </p>
         <p>
-          I transitioned into CS in 2023 and earned my Bachelor's at Florida International University. 
-          In that time I led app development teams, contributed to open-source platforms used by 
-          tens of thousands of people, and built production e-commerce systems from the ground up.
-        </p>
-        <p>
-          I work across mobile and web — wherever the problem lives.
+          Since then I've led iOS app development, contributed to an open-source platform 
+          with <strong>10,000+ monthly active users</strong>, and built full e-commerce systems 
+          from scratch. I work across mobile and web — and having a business background means 
+          I think about <strong>what to build</strong>, not just how.
         </p>
         <a href="#contact" class="btn btn-ghost" style="margin-top: 12px;">Let's talk →</a>
       </div>
@@ -832,7 +828,7 @@
       </p>
       <div class="contact-links">
         <a href="mailto:guspineda93@gmail.com" class="contact-link link-cyan">
-          ✉ guspineda93@gmail.com
+          ✉ Say Hello
         </a>
         <a href="https://github.com/GitGudGus" target="_blank" class="contact-link link-outline">
           GitHub ↗
@@ -849,18 +845,8 @@
     <div class="footer-right">Miami, FL</div>
   </footer>
 
-  <script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     const cards = document.querySelectorAll('.project-card');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1 });
-    cards.forEach(card => observer.observe(card));
-  </script>
-
-</body>
-</html>
+        if
